@@ -1519,9 +1519,9 @@
     .section-statistic .container .row .statistic-item .icon {
         font-size: 3rem;
     }
-    .section-services .container .row .satu,
-    .section-services .container .row .dua,
-    .section-services .container .row .tiga {
+    .jb .container .row .satu,
+    .jb .container .row .dua,
+    .jb .container .row .tiga {
         width: 30px;
         height: 30px;
         background-color: var(--abu);
@@ -1537,17 +1537,20 @@
         -o-border-radius: 5px;
         color: var(--putih);
     }
-    .section-services .container .row .wadah-1 .wadah p {
+    .jb .container .row .wadah-1 .wadah p {
         line-height: 20px;
         padding-top: 10px;
     }
-    .section-services .container .row .wadah-1 {
+    .jb .container .row .wadah-1 {
         display: flex;
     }
-    .section-services .container .row .card-satu {
+    .jb .container .row .card-satu {
         width: 300px;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    .section-services .container .row .ten{
+        padding-top: 30px;
     }
 
     /* quality */
