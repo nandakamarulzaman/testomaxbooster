@@ -1213,6 +1213,22 @@ background-color: #fff;
             .yahaha{
                 display: none;
             }
+
+            .hero .video-bg{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 300px;
+                height: 250px;
+            }
+            .hero h1{
+                padding-top: 50px;
+                padding-bottom: 30px;
+                font-size: 24px;
+            }
+            .hero .video-bg{
+                padding-bottom: 40px;
+            }
 }
 /* ================================================================== */
 /* tablet */
@@ -1253,10 +1269,6 @@ background-color: #fff;
 /* ========================================== */
 }
 
-    body {
-    height: 5000px;
-    }
-
 /* ====================================================== */
 .section-masalah .container h1,
 .section-product .container h1,
@@ -1264,6 +1276,7 @@ background-color: #fff;
 .section-sertifikat .container h1,
 .section-pesan .container h1,
 .section-kontak .container h1,
+.hero h1,
 .section-quality .container h1{
     animation: animemasalah 1s ease infinite;
     -webkit-animation: animemasalah 1s ease infinite;
@@ -1359,7 +1372,12 @@ background-color: #fff;
     width: 500px;
     object-fit: cover;
     }
-
+/* =================================== */
+    .hero{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .section-product .container h1 {
         padding-top: 90px;
         }
