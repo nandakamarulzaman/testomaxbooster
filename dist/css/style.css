@@ -1141,13 +1141,16 @@ background-color: #fff;
         #masalah .container .image-container{
             display: flex;
         }
+        #product .container .image-container{
+            display: flex;
+        }
         #masalah .container .image-container .image{
             width: 150px;
             height: 150px;
         }
         #product .container .image-container .image{
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
         }
     /* akhir masalah */
         /* -------------------------------- */
