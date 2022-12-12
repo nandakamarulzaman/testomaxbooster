@@ -891,7 +891,6 @@
 
 
 body{
-    height: 20000px;
 background-color: #fff;
 }
 
@@ -1229,6 +1228,11 @@ background-color: #fff;
             .hero .video-bg{
                 padding-bottom: 40px;
             }
+                .hero1 img{
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
 }
 /* ================================================================== */
 /* tablet */
@@ -1450,3 +1454,9 @@ background-color: #fff;
         width: 500px;
         object-fit: cover;
         }
+        /* .hero1 .img-bg{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 600px;
+        } */
