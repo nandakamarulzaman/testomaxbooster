@@ -1065,7 +1065,7 @@ background-color: #fff;
         padding: 1px;
         }
         .section-product .container .image-container .image {
-        width: 1100px;
+        width: 120px;
         height: 120px;
         border: 0px solid;
         box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
@@ -1145,6 +1145,10 @@ background-color: #fff;
             width: 150px;
             height: 150px;
         }
+        #product .container .image-container .image{
+            width: 150px;
+            height: 150px;
+        }
     /* akhir masalah */
         /* -------------------------------- */
     /* quality */
@@ -1161,14 +1165,14 @@ background-color: #fff;
     }
 
         /*? produk  */
-        .section-produk .container .image-container {
+        .section-product .container .image-container {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
             justify-content: center;
             padding: 5px;
             }
-            .section-produk .container .image-container .image {
+            .section-product .container .image-container .image {
             width: 50px;
             height: 50px;
             border: 0px solid var(--putih);
@@ -1182,10 +1186,6 @@ background-color: #fff;
     
             .section-product .container .image-container{
                 display: flex;
-            }
-            .section-product .container .image-container .image{
-                width: 150px;
-                height: 150px;
             }
             #pesan .container p{
                 text-transform: none;
