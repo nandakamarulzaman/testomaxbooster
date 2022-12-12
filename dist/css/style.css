@@ -1065,7 +1065,7 @@ background-color: #fff;
         padding: 1px;
         }
         .section-product .container .image-container .image {
-        width: 110px;
+        width: 1100px;
         height: 120px;
         border: 0px solid;
         box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
@@ -1176,14 +1176,14 @@ background-color: #fff;
             overflow: hidden;
             cursor: pointer;
             }
-            #product p{
+            .section-product p{
                 font-size: 12px;
             }
     
-            #product .container .image-container{
+            .section-product .container .image-container{
                 display: flex;
             }
-            #product .container .image-container .image{
+            .section-product .container .image-container .image{
                 width: 150px;
                 height: 150px;
             }
@@ -1363,7 +1363,7 @@ background-color: #fff;
         .section-product .container .image-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
         padding: 10px;
         }
