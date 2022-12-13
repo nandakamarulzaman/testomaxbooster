@@ -1228,11 +1228,11 @@ background-color: #fff;
             .hero .video-bg{
                 padding-bottom: 40px;
             }
-                .hero1 img{
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                }
+            .hero1 img{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
 }
 /* ================================================================== */
 /* tablet */
