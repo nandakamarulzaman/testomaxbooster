@@ -881,7 +881,7 @@
 
     .beli-yuk .btn{
         color: var(--putih);
-        background-color: var(--biru);
+        background-color: red;
         animation: animate .9s ease infinite;
         -webkit-animation: animate .6s ease infinite;
         font-weight: 600;
@@ -891,13 +891,13 @@
             color: var(--putih);
         }
         25%{
-            color: red;
+            color: #000;
         }
         50%{
             color: var(--putih);
         }
         75%{
-            color: red;
+            color: #000;
         }
         100%{
             color: var(--putih);
@@ -1583,7 +1583,7 @@ background-color: #fff;
             width: 600px;
         } */
 .container-foto{
-    background-color: var(--hitam2);
+    background-color: #000;
 }
 .foto-satu,
 .foto-dua,
@@ -1612,5 +1612,5 @@ background-color: #fff;
 
 
 .bg-hitam{
-    background-color: var(--hitam2);
+    background-color: #000;
 }
