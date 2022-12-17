@@ -46,7 +46,7 @@
     }
 
     .bg.scrolled {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 10px 1px var(--hitam2);
     }
 
@@ -881,19 +881,26 @@
 
     .beli-yuk .btn{
         color: var(--putih);
-        transition: all .3s ease;
-        -webkit-transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -ms-transition: all .3s ease;
-        -o-transition: all .3s ease;
         background-color: var(--biru);
-        animation: animate .6s ease infinite;
+        animation: animate .9s ease infinite;
         -webkit-animation: animate .6s ease infinite;
         font-weight: 600;
 }
     @keyframes animate{
+        0%{
+            color: var(--putih);
+        }
+        25%{
+            color: red;
+        }
+        50%{
+            color: var(--putih);
+        }
+        75%{
+            color: red;
+        }
         100%{
-            color: var(--hitam2);
+            color: var(--putih);
         }
     }
 
@@ -1586,7 +1593,8 @@ background-color: #fff;
 .foto-enam,
 .foto-tujuh,
 .foto-delapan,
-.foto-sembilan{
+.foto-sembilan,
+.foto-sepuluh{
     width: 100%;
     align-items: center;
 }
