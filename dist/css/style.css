@@ -465,7 +465,6 @@
     .section-sertifikat .container{
         position: relative;
         min-height: 100vh;
-        background-color: var(--birutua);
     }
     .section-sertifikat .container h1{
         font-size: 40px;
@@ -1373,22 +1372,46 @@ background-color: #fff;
 .section-pesan .container h1,
 .section-kontak .container h1,
 .hero h1,
-.section-quality .container h1{
+.section-quality .container h1
+{
     animation: animemasalah 1s ease infinite;
     -webkit-animation: animemasalah 1s ease infinite;
 }
     @keyframes animemasalah{
         0% {
-            color: var(--abu);
+            color: var(--putih);
         }
         25% {
             color: var(--biru);
         }
         50% {
-            color: var(--abu);
+            color: var(--putih);
         }
         75% {
             color: var(--biru);
+        }
+        100% {
+            color: var(--putih);
+        }
+    }
+
+
+    .container-foto h1{
+        animation: anime 1s ease infinite;
+    -webkit-animation: anime 1s ease infinite;
+    }
+    @keyframes anime{
+        0% {
+            color: var(--abu);
+        }
+        25% {
+            color: red;
+        }
+        50% {
+            color: var(--abu);
+        }
+        75% {
+            color: red;
         }
         100% {
             color: var(--abu);
@@ -1552,3 +1575,37 @@ background-color: #fff;
             text-align: center;
             width: 600px;
         } */
+.container-foto{
+    background-color: var(--hitam2);
+}
+.foto-satu,
+.foto-dua,
+.foto-tiga,
+.foto-empat,
+.foto-lima,
+.foto-enam,
+.foto-tujuh,
+.foto-delapan,
+.foto-sembilan{
+    width: 100%;
+    align-items: center;
+}
+
+.foto-dua,
+.foto-tiga,
+.foto-empat,
+.foto-lima,
+.foto-enam,
+.foto-tujuh,
+.foto-delapan,
+.foto-sembilan{
+    margin-top: 10px;
+}
+
+.foto-delapan{
+    margin-bottom: 50px;
+}
+
+.bg-hitam{
+    background-color: var(--hitam2);
+}
